@@ -6,25 +6,27 @@
 #   content: "Bit Podcast is a podcast series featuring myself, [Benjamin Reid](http://benjaminreid.me) and [Jamie Gregson](http://www.jamietakes.photos/) as we discuss web design and development, plus games & movies on the side. I also provided the design for the site."
 #   image: "/assets/images/bit-podcast-graphic.png"
 #   caption: "Sample UI &amp; branding"
-- link: "https://alembic.darn.es"
-  icon: alembic
-  title: "Alembic Jekyll Theme"
-  colour: "#00a975"
-  content: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate [theme](https://jekyllrb.com/docs/themes/) is designed to give you a starting point immediately that you can build upon."
-  image: "/assets/images/alembic-theme-graphic.png"
-  caption: "Sample UI"
-- link: "https://garth.darn.es/about/"
-  icon: drum
-  title: "Garth Jekyll Theme"
-  colour: "#8549FC"
-  content: "Garth is a stupidly simple theme for Jekyll, using the official [Jekyll theme method](https://jekyllrb.com/docs/themes/). Garth can be used as a Jekyll theme gem or as a 'forkable template' using [GitHub Pages](https://pages.github.com)."
-  image: "/assets/images/garth-theme-graphic.png"
-  caption: "Sample UI"
-- link: "https://anchorthemes.com"
-  icon: anchor
-  title: "Anchor Themes"
-  colour: "#E36500"
-  content: "Anchor Themes is a site I created to showcase the best themes available for [Anchor CMS](http://anchorcms.com). I designed, built and manage the site so that people can easily browse and use themes for Anchor CMS."
+
+- category: "Professional Projects"
+  link: "https://chunjohnlee.github.io/s4mvr"
+  icon: s4mvr
+  title: "See4Myself - VR" 
+  colour: "#8549FC" # TODO
+  content: "See4Myself was developed with Unity Engine and distributed on iPad and Oculus Quest and I was the programmer and the content designer of this product. The Quest version is a VR job simulator that enables students and adult with Autism Spectrum Disorder (ASD) to experience the workplace of different careers with a milder atmosphere."
+  image: "/assets/images/garth-theme-graphic.png" # TODO
+  caption: "Screenshot"
+- link: "https://chunjohnlee.github.io/s4mipad"
+  icon: s4mipad
+  title: "See4Myself - iPad"
+  colour: "#00a975" # TODO
+  content: "The iPad version is a top-down visual career explorer which displays many different careers in several mini-worlds, e.g. a hospital, a factory district, a construction site, a shopping center, etc. The characters which represent each career can be filtered with different criteria, like salary, qualification and more. The information of the careers is managed by MySQL. I also implemented some NPC that walks around in a node system so the world appears more lively."
+  image: "/assets/images/alembic-theme-graphic.png" # TODO
+  caption: "Screenshot"
+- link: "https://www.neurotech.biz/talkback"
+  icon: talkback
+  title: "Talkback VR"
+  colour: "#E36500" #TODO
+  content: "I was brought in as a Unity developer in the late stage of the development to design new content and implement the gameplay of the new levels. I developed a character customization system that can save/load a set of clothing and use it on later levels"
   image: "/assets/images/anchor-themes-graphic.png"
   caption: "Sample UI &amp; branding"
 - link: "https://github.com/TryGhost/eleventy-starter-ghost"

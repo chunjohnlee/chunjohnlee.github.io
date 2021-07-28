@@ -1,17 +1,17 @@
 ---
 layout: front
-title: "David Darnes"
-excerpt: "Web Designer & Front-end Developer"
-image: "https://avatars1.githubusercontent.com/u/1177460?s=600"
+title: "John Lee"
+excerpt: "Game Programmer"
+image: "https://avatars.githubusercontent.com/u/88058124?s=600"
 
 ---
 
-## Designer, Front-end Developer & Writer
+## Game Programmer
 
-**Hi, my name's Dave. I'm a Freelance Designer, Front-end Developer & Writer based in Bristol UK.**
+**Hello there! I'm John, a game developer based in London, UK**
 
-With over 11 years professional experience, I've been building up my skills in design, UI development, and front-end development, working with some really exciting people like [Netlify](https://netlify.com), [Ghost](https://ghost.org), [Buffer](https://buffer.com), [Formspree](https://formspree.io), [Stackbit](https://stackbit.com), [Envato Tuts+](https://tutsplus.com/) and [BaseKit](https://basekit.com).
+As a developer in [Neurotech](https://www.neurotech.biz), I helped developed [Talkback VR](https://www.neurotech.biz/talkback) and is the sole developer of another product [See4Myself](https://www.neurotech.biz/see4myself). 
 
-In my spare time, I also write [articles](https://david.darn.es) and work on [open-source projects](https://daviddarnes.github.io), such as [Anchor CMS](https://github.com/anchorcms/anchor-cms) and [Alembic theme](https://alembic.darn.es).
+In my spare time, I joined several game jam and created: [Finding Friendzy](https://blackjlc.itch.io/finding-friendzy), [Hole Again](https://blackjlc.itch.io/hole-again) and [Nagashi Somen](https://blackjlc.itch.io/nagashi-somen). There're also countless abandon passion game projects, but the only one that I'm actively working on is *Mega Building*.
 
-If you'd like chat, [get in touch](http://enable-javascript.com/ "my email").
+Feel free to chat with me, [get in touch](http://enable-javascript.com/ "my email").

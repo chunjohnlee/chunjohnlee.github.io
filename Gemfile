@@ -7,3 +7,5 @@ gem "jekyll-seo-tag", "~> 2.6.1"
 gem "jekyll-commonmark", "~> 1.3.1"
 gem "jekyll-include-cache", "~> 0.2"
 gem "jemoji", "~> 0.12"
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+gem "webrick", "~> 1.7"

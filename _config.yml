@@ -25,25 +25,21 @@ permalink: pretty
 jekyll-mentions: https://twitter.com
 
 # Site info
-url: "https://darn.es"
-title: "David Darnes"
-name: "David Darnes"
-description: "Web Designer & Front-end Developer"
-logo: "https://avatars1.githubusercontent.com/u/1177460?s=300"
+title: "John Lee | Dream to change the world with games"
+name: "John Lee"
+description: "Feel free to contact me if you find anything interesting!"
+logo: "https://avatars.githubusercontent.com/u/88058124?s=300"
 
 # SEO > twitter name meta
 twitter:
-  username: DavidDarnes
+  username: chunlee_john
 
 # SEO > site alias meta
 social:
   links:
-    - https://twitter.com/DavidDarnes
-    - https://www.facebook.com/daviddarnes
-    - https://www.linkedin.com/in/daviddarnes
-    - https://plus.google.com/+DavidDarnes
-    - https://github.com/DavidDarnes
-    - https://mastodon.design/@daviddarnes
+    - https://twitter.com/chunlee_john
+    - https://www.linkedin.com/in/chun-john-lee/
+    - https://github.com/blackjlc
 
 # SEO > author meta
-author: DavidDarnes
+author: chunlee_john

@@ -1,39 +1,61 @@
 {% if site.data.sites %}
-	<div class="content">
-		<h3>Recent Projects</h3>
+<ul class="list  list--sites" id="sites">
+	{% for item in site.data.sites %}
+	{% if item.category %}
+	<div>
+		<figure>
+			<h1>
+				{{item.category}}
+			</h1>
+		</figure>
 	</div>
-	<ul class="list  list--sites" id="sites">
-	  {% for item in site.data.sites %}
-	    <li class="item  item--site" id="{{ item.title | slugify }}" data-color="{{ item.colour | color_to_hsl }}">
+	{% endif %}
+	<li class="item  item--site" id="{{ item.title | slugify }}" data-color="{{ item.colour | color_to_hsl }}">
 
-				{% if item.image %}
-					<figure class="figure">
-						<img src="{{ item.image }}" alt="{{ item.title }} UI">
-						{% if item.caption %}<figcaption class="caption">{{ item.caption }}</figcaption>{% endif %}
-					</figure>
-				{% endif %}
+		{% if item.image %}
+		<figure class="figure">
+			<img src="{{ item.image }}" alt="{{ item.title }} UI">
+			{% if item.caption %}<figcaption class="caption">{{ item.caption }}</figcaption>{% endif %}
+		</figure>
+		{% endif %}
 
-				<div class="details">
-					<a class="link  link--circle  link--site" href="{{ item.link }}" title="{{ item.title }}">
-						<svg class="icon  icon--site" role="img" aria-label="{{ item.title }} icon">
-							<title>{{ item.icon }}</title>
-							<use xlink:href="#{{ item.icon }}" fill="{{ item.colour }}"></use>
-						</svg>
-					</a>
+		<div class="details">
+			<a class="link  link--circle  link--site" href="{{ item.link }}" title="{{ item.title }}">
+				<svg class="icon  icon--site" role="img" aria-label="{{ item.title }} icon">
+					<title>{{ item.icon }}</title>
+					<use xlink:href="#{{ item.icon }}" fill="{{ item.colour }}"></use>
+				</svg>
+			</a>
 
-		   		<article class="content  content--site  content--{{ item.title | slugify }}">
+			<article class="content  content--site  content--{{ item.title | slugify }}">
 
-						<style>.content--{{ item.title | slugify }} a { color: {{ item.colour }}; }</style>
+				<style>
+					.content-- {
+							{
+							item.title | slugify
+						}
+					}
 
-						<h2>
-							<a href="{{ item.link }}" title="{{ item.title }} site">{{ item.title }}</a>
-						</h2>
+					a {
+						color: {
+								{
+								item.colour
+							}
+						}
 
-						{{ item.content | markdownify }}
-			    </article>
-				</div>
+						;
+					}
+				</style>
 
-		  </li>
-		{% endfor %}
-	</ul>
+				<h2>
+					<a href="{{ item.link }}" title="{{ item.title }} site">{{ item.title }}</a>
+				</h2>
+
+				{{ item.content | markdownify }}
+			</article>
+		</div>
+
+	</li>
+	{% endfor %}
+</ul>
 {% endif %}
