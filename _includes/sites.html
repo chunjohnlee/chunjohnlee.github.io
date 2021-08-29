@@ -4,13 +4,13 @@
 	{% if item.category %}
 	<div>
 		<figure>
-			<h1>
+			<h1 class="category" data-color="{{ item.colour | color_to_hsl }}">
 				{{item.category}}
 			</h1>
 		</figure>
 	</div>
 	{% endif %}
-	<li class="item  item--site" id="{{ item.title | slugify }}" data-color="{{ item.colour | color_to_hsl }}">
+	<li class=" item item--site" id="{{ item.title | slugify }}" data-color="{{ item.colour | color_to_hsl }}">
 
 		{% if item.image %}
 		<figure class="figure">

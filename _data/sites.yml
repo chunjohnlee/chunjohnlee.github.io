@@ -26,21 +26,22 @@
   icon: talkback
   title: "Talkback VR"
   colour: "#E36500" #TODO
-  content: "I was brought in as a Unity developer in the late stage of the development to design new content and implement the gameplay of the new levels. I developed a character customization system that can save/load a set of clothing and use it on later levels"
+  content: "I was brought in as a Unity developer in the late stage of the development to design new content and implement the gameplay of the new levels. I developed a character customization system that can save/load a set of clothing and use it on later levels."
   image: "/assets/images/anchor-themes-graphic.png"
   caption: "Sample UI &amp; branding"
-- link: "https://github.com/TryGhost/eleventy-starter-ghost"
+- category: "Hobby Projects"
+  link: "https://blackjlc.itch.io/finding-friendzy"
   icon: ghost
-  title: "Eleventy Starter Ghost"
-  colour: "#15212a"
-  content: "The Eleventy Starter is designed to help developers build a site using the [Ghost Content API](https://ghost.org/changelog/jamstack/) with the popular Static Site Generator [Eleventy](https://www.11ty.dev/). The starter uses nunjucks to expose Ghost site data as well as rendering pages, posts, tags and author pages. Check out [my full write up on the official Ghost blog](https://ghost.org/changelog/eleventy/)."
-  image: "/assets/images/eleventy-starter-ghost-graphic.png"
-  caption: "Screenshot of the Eleventy Starter demo"
+  title: "Finding Friendzy"
+  colour: "#15212a" #TODO
+  content: "Finding Friendzy is a Global Game Jam 2021 entry and had received Most Innovative Gameplay in Hong Kong jam site. The game is about finding your missing drunk friends in a club. I mainly contributed in the \"drunk effect\" as the player consumes more and more alcohol, player's control and movement, as well as the animations of all the characters"
+  image: "/assets/images/finding_friendzy.png"
+  caption: "Screenshot of Finding Friendzy"
 - link: "https://github.com/daviddarnes/netlify-plugin-ghost-markdown"
   icon: netlify
-  title: "Netlify Build Plugin Ghost Markdown"
-  colour: "#00C7B7"
-  content: "With this plugin people can plug their Ghost install directly into any site hosted on Netlify. The plugin ustilises the [Ghost Content API](https://ghost.org/changelog/jamstack/) to convert content into the portable file format Markdown, which can be used my the majority of Static Site Generators. [Check out the demo](https://netlify-plugin-ghost-markdown-test.netlify.app/) to see it in action."
+  title: "Hole Again"
+  colour: "#00C7B7" #TODO
+  content: "Hole Again is a Global Game Jam 2020 entry in London Goldsmiths University jam site. The players are the road workers of two rivaling company. They need to fix as many potholes as possible while stopping the opponent to do so. Be aware that the cars won't stop just because you are fixing a pothole, so please try to stay alive. In this project, my main contribution is the traffic system which keep the cars to follow a procedural generated path in the city."
   image: "/assets/images/netlify-plugin-ghost-markdown-graphic.png"
   caption: "Example of markdown generation, image cloning and file caching with example resulting site"
 - link: "https://www.madebysix.com/projects/residential-by-land-securities/#digital"
