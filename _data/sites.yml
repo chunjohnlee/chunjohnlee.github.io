@@ -26,7 +26,7 @@
   icon: talkback
   title: "Talkback VR"
   colour: "#E36500" #TODO
-  content: "I was brought in as a Unity developer in the late stage of the development to design new content and implement the gameplay of the new levels. I developed a character customization system that can save/load a set of clothing and use it on later levels."
+  content: "I was brought in as a Unity developer in the late stage of the development to design new content and implement the gameplay of the new levels. In one of the lesson in the App, I developed a character customization system that can save/load a set of clothing and use it on later levels."
   image: "/assets/images/TalkbackVR.jpg"
   caption: "Screenshot of Talkback VR"
 - category: "Hobby Projects"
