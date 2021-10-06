@@ -8,19 +8,19 @@
 #   caption: "Sample UI &amp; branding"
 
 - category: "Professional Projects"
-  link: "https://chunjohnlee.github.io/s4mvr"
+  link: "https://www.neurotech.biz/see4myself"
   icon: s4mvr
   title: "See4Myself - VR" 
   colour: "#8549FC" # TODO
   content: "See4Myself was developed with Unity Engine and distributed on iPad and Oculus Quest and I was the programmer and the content designer of this product. The Quest version is a VR job simulator that enables students and adult with Autism Spectrum Disorder (ASD) to experience the workplace of different careers with a milder atmosphere."
-  image: "/assets/images/garth-theme-graphic.png" # TODO
+  image: "/assets/images/S4MVR.jpg"
   caption: "Screenshot"
-- link: "https://chunjohnlee.github.io/s4mipad"
+- link: "https://www.neurotech.biz/see4myself"
   icon: s4mipad
   title: "See4Myself - iPad"
   colour: "#00a975" # TODO
-  content: "The iPad version is a top-down visual career explorer which displays many different careers in several mini-worlds, e.g. a hospital, a factory district, a construction site, a shopping center, etc. The characters which represent each career can be filtered with different criteria, like salary, qualification and more. The information of the careers is managed by MySQL. I also implemented some NPC that walks around in a node system so the world appears more lively."
-  image: "/assets/images/alembic-theme-graphic.png" # TODO
+  content: "The iPad version is a top-down visual career explorer which displays many different careers in several mini-worlds, e.g. a hospital, a factory district, a construction site, a shopping center, etc. The characters which represent each career can be filtered with different criteria, like salary, qualification and more. Users can click on them to find more information about them. The information of the jobs is managed by SQLite. I also implemented some NPC that walks around in a node system so the world appears more lively."
+  image: "/assets/images/S4MPad.jpg"
   caption: "Screenshot"
 - link: "https://www.neurotech.biz/talkback"
   icon: talkback
@@ -37,46 +37,10 @@
   content: "Finding Friendzy is a Global Game Jam 2021 entry and had received Most Innovative Gameplay in Hong Kong jam site. The game is about finding your missing drunk friends in a club. I mainly contributed in the \"drunk effect\" as the player consumes more and more alcohol, player's control and movement, as well as the animations of all the characters"
   image: "/assets/images/finding_friendzy.png"
   caption: "Screenshot of Finding Friendzy"
-- link: "https://github.com/daviddarnes/netlify-plugin-ghost-markdown"
+- link: "https://blackjlc.itch.io/hole-again"
   icon: netlify
   title: "Hole Again"
   colour: "#00C7B7" #TODO
   content: "Hole Again is a Global Game Jam 2020 entry in London Goldsmiths University jam site. The players are the road workers of two rivaling company. They need to fix as many potholes as possible while stopping the opponent to do so. Be aware that the cars won't stop just because you are fixing a pothole, so please try to stay alive. In this project, my main contribution is the traffic system which keep the cars to follow a procedural generated path in the city."
   image: "/assets/images/netlify-plugin-ghost-markdown-graphic.png"
   caption: "Example of markdown generation, image cloning and file caching with example resulting site"
-- link: "https://www.madebysix.com/projects/residential-by-land-securities/#digital"
-  icon: ls
-  title: "Residential Land Securities"
-  colour: "#D4AF78"
-  content: "An online portfolio of homes in the heart of London. I developed the front-end of the site and used WordPress as the CMS; this was in collaboration with the agency [Six](http://www.madebysix.com/)."
-  image: "/assets/images/land-securities-graphic.png"
-  caption: "Sample Front-end"
-- link: "https://web.archive.org/web/20180822052856/https://arjbuilders.com/"
-  icon: arjbuilders
-  title: "ARJ Builders"
-  colour: "#5F7B6C"
-  content: "A freelance project for a family-run construction company. Despite the site being almost 5 years old, I'm still very proud of it."
-  image: "/assets/images/arj-builders-graphic.png"
-  caption: "Desktop screenshot"
-# - link: "https://www.effectdigital.com/"
-#   icon: e
-#   title: "effect Home"
-#   colour: "#fb6400"
-#   content: "As part of the [effect](http://www.effectdigital.com/) team, I designed and built the homepage of the new site, using SVG elements and a responsive grid system of my own design."
-- link: "https://www.lalc.co.uk/?cab_hide_site=true"
-  icon: lincolnshire
-  title: "LALC"
-  colour: "#D40000"
-  content: "A website build for the Lincolnshire County Council using WordPress as the CMS. This was in collaboration with [POP Branding](http://pop-branding.com/)."
-  image: "/assets/images/lalc-graphic.png"
-  caption: "Desktop screenshot"
-- link: "https://itsminty.co.uk"
-  icon: m
-  title: "It's Minty"
-  colour: "#8BC58B"
-  content: "The personal portfolio of Stephen Minty, a motion designer & animation director. I converted this site from a WordPress theme to a well structured and efficient static site with the power of Jekyll and [Siteleaf](https://siteleaf.com)."
-- link: "https://docs.basekit.com"
-  icon: basekit
-  title: "BaseKit Documentation"
-  colour: "#166CCB"
-  content: "As well as prototyping the BaseKit UI, I also heavily contribute to the community. I created this documentation site using [Jekyll](http://jekyllrb.com/) in addition to a [video course for Tuts+](http://webdesign.tutsplus.com/courses/building-websites-with-basekit)."
