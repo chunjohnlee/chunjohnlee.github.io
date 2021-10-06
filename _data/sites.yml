@@ -14,21 +14,21 @@
   colour: "#8549FC" # TODO
   content: "See4Myself was developed with Unity Engine and distributed on iPad and Oculus Quest and I was the programmer and the content designer of this product. The Quest version is a VR job simulator that enables students and adult with Autism Spectrum Disorder (ASD) to experience the workplace of different careers with a milder atmosphere."
   image: "/assets/images/S4MVR.jpg"
-  caption: "Screenshot"
+  caption: "Screenshot of See4Myself VR"
 - link: "https://www.neurotech.biz/see4myself"
   icon: s4mipad
   title: "See4Myself - iPad"
   colour: "#00a975" # TODO
   content: "The iPad version is a top-down visual career explorer which displays many different careers in several mini-worlds, e.g. a hospital, a factory district, a construction site, a shopping center, etc. The characters which represent each career can be filtered with different criteria, like salary, qualification and more. Users can click on them to find more information about them. The information of the jobs is managed by SQLite. I also implemented some NPC that walks around in a node system so the world appears more lively."
   image: "/assets/images/S4MPad.jpg"
-  caption: "Screenshot"
+  caption: "Screenshot See4Myself iPad"
 - link: "https://www.neurotech.biz/talkback"
   icon: talkback
   title: "Talkback VR"
   colour: "#E36500" #TODO
   content: "I was brought in as a Unity developer in the late stage of the development to design new content and implement the gameplay of the new levels. I developed a character customization system that can save/load a set of clothing and use it on later levels."
-  image: "/assets/images/anchor-themes-graphic.png"
-  caption: "Sample UI &amp; branding"
+  image: "/assets/images/TalkbackVR.jpg"
+  caption: "Screenshot of Talkback VR"
 - category: "Hobby Projects"
   link: "https://blackjlc.itch.io/finding-friendzy"
   icon: ghost
@@ -42,5 +42,5 @@
   title: "Hole Again"
   colour: "#00C7B7" #TODO
   content: "Hole Again is a Global Game Jam 2020 entry in London Goldsmiths University jam site. The players are the road workers of two rivaling company. They need to fix as many potholes as possible while stopping the opponent to do so. Be aware that the cars won't stop just because you are fixing a pothole, so please try to stay alive. In this project, my main contribution is the traffic system which keep the cars to follow a procedural generated path in the city."
-  image: "/assets/images/netlify-plugin-ghost-markdown-graphic.png"
-  caption: "Example of markdown generation, image cloning and file caching with example resulting site"
+  image: "/assets/images/HoleAgain.jpg"
+  caption: "Screenshot of Hole Again"
