@@ -1,33 +1,38 @@
 <!DOCTYPE html>
 <html lang="en-GB">
-	<head>
-		<!-- General meta -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		{% if page.indexing == false %}
-			<meta name="robots" content="noindex">
-		{% endif %}
+<head>
+	<!-- General meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		{% capture seo %}
-			{% if page.title contains site.title %}
-				<title>{{ page.title }} - {{ page.excerpt }}</title>
-				{% seo title=false %}
-			{% else %}
-				{% seo %}
-			{% endif %}
-		{% endcapture %}
+	{% if page.indexing == false %}
+	<meta name="robots" content="noindex">
+	{% endif %}
 
-		{{ seo | replace: "summary_large_image", "summary" }}
+	{% capture seo %}
+	{% if page.title contains site.title %}
+	<title>{{ page.title }} - {{ page.excerpt }}</title>
+	{% seo title=false %}
+	{% else %}
+	{% seo %}
+	{% endif %}
+	{% endcapture %}
 
-		{% include styles.html %}
-		{% include favicons.html %}
-	</head>
-	<body>
-		{% include icons.svg %}
+	{{ seo | replace: "summary_large_image", "summary" }}
 
-		{{ content }}
+	<link rel="stylesheet" href="{{ '/css/styles.css' | relative_url }}">
+	<link rel="stylesheet" href="{{ '/css/masthead.css' | relative_url }}">
 
-		<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,300" media="all" rel="stylesheet" type="text/css">
-		{% include scripts.html %}
-	</body>
+	{% include favicons.html %}
+</head>
+
+<body>
+	{% include masthead.html %}
+
+	{{ content }}
+
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,300" media="all" rel="stylesheet" type="text/css">
+	{% include scripts.html %}
+</body>
+
 </html>

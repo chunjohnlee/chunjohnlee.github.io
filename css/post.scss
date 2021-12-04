@@ -1,0 +1,11 @@
+---
+styles: true
+---
+
+$masthead-height: 100px;
+
+.post {
+    padding-top: $masthead-height;
+    padding-left: 5%;
+    padding-right: 5%;
+}

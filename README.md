@@ -1,3 +1,3 @@
 # [chunjohnlee.github.io](https://chunjohnlee.github.io)
 
-My "top level" main site, a simple single page listing all my main web projects.
+My online portfolio site, forked from [leebivip / darn.es](https://github.com/leebivip/darn.es)

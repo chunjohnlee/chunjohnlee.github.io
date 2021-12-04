@@ -4,23 +4,25 @@ styles: true
 
 // Variables
 $color--background: #ffffff;
-$color--link: #83C001;
-$color--heading: #5D5D5D;
+$color--link: #83c001;
+$color--heading: #5d5d5d;
 $color--subheading: #808080;
-$color--paragraph: #3D3D3D;
+$color--paragraph: #3d3d3d;
 $color--keyline: fade-out($color--link, 0.5);
 $color--footnote: #767676;
-$width--keyline: .5rem;
+$width--keyline: 0.5rem;
 
 // Globals & resets
-html, body, figure {
-    padding: 0;
+html,
+body,
+figure {
+    
     margin: 0;
 }
 
 html {
     height: 100%;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-weight: 300;
     font-size: 18px;
     line-height: 1.8rem;
@@ -41,7 +43,10 @@ body {
 }
 
 // Typography
-h1, h2, h3, a {
+h1,
+h2,
+h3,
+a {
     margin-top: 0;
     font-weight: 400;
 }
@@ -49,28 +54,28 @@ h1, h2, h3, a {
 h1 {
     font-size: 2.4rem;
     line-height: 2.4rem;
-    margin-bottom: .45rem;
+    margin-bottom: 0.45rem;
     color: $color--heading;
 }
 
-.category{
+.category {
     color: white;
     background: var(--keyline-color, $color--link);
     border-radius: 25px;
-    box-shadow: 0 0 .4rem .8rem $color--background;
-    padding: 20px; 
+    box-shadow: 0 0 0.4rem 0.8rem $color--background;
+    padding: 20px;
 }
 
 h2 {
     font-size: 1.5rem;
     line-height: 1.8rem;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
     color: $color--subheading;
 }
 
 h3 {
     font-size: 1.2rem;
-    margin-bottom: .7rem;
+    margin-bottom: 0.7rem;
     color: $color--footnote;
     font-weight: 300;
 }
@@ -84,18 +89,12 @@ a {
     text-decoration: none;
     position: relative;
     background: linear-gradient(
-        transparent 0%,
-        transparent 96%,
-        fade-out($color--background, 0.2) 96%,
-        fade-out($color--background, 0.2) 100%
-    ),
-    linear-gradient(
-        transparent 0%,
-        transparent 96%,
-        currentColor 96%,
-        currentColor 99.9%,
-        transparent 100%
-    );
+            transparent 0%,
+            transparent 96%,
+            fade-out($color--background, 0.2) 96%,
+            fade-out($color--background, 0.2) 100%
+        ),
+        linear-gradient(transparent 0%, transparent 96%, currentColor 96%, currentColor 99.9%, transparent 100%);
     &:hover {
         background: linear-gradient(
             transparent 0%,
@@ -109,21 +108,21 @@ a {
 
 small,
 figcaption {
-    font-size: .85rem;
+    font-size: 0.85rem;
     font-weight: 400;
     color: $color--footnote;
 }
 
 figcaption {
-  text-align: right;
-  padding: 0 1rem;
-  color: lighten($color--footnote, 15%);
-  font-weight: 300;
+    text-align: right;
+    padding: 0 1rem;
+    color: lighten($color--footnote, 15%);
+    font-weight: 300;
 }
 
 ::selection {
-  background: $color--paragraph;
-  color: lighten($color--background, 10%);
+    background: $color--paragraph;
+    color: lighten($color--background, 10%);
 }
 
 // Graphics
@@ -168,21 +167,27 @@ img {
         left: 2.75rem;
         height: 100%;
         border-left: $width--keyline solid var(--keyline-color, $color--keyline);
-        transition: border .6s;
+        transition: border 0.6s;
         @media (max-width: 500px) {
             left: 2rem;
         }
     }
     &:before {
-      animation: keyline 1s ease;
-      opacity: .5;
+        animation: keyline 1s ease;
+        opacity: 0.5;
     }
     &:after {
         position: fixed;
         left: 0;
         width: 100%;
         border: none;
-        background: linear-gradient(to top, rgba($color--background, 1) 1%, rgba($color--background, 0) 5%,  rgba($color--background, 0) 95%, rgba($color--background, 1) 99%);
+        background: linear-gradient(
+            to top,
+            rgba($color--background, 1) 1%,
+            rgba($color--background, 0) 5%,
+            rgba($color--background, 0) 95%,
+            rgba($color--background, 1) 99%
+        );
         @media (max-width: 500px) {
             position: absolute;
         }
@@ -202,7 +207,7 @@ img {
         margin-left: 5.2rem;
     }
     &--header {
-        padding-top: .5rem;
+        padding-top: 0.5rem;
     }
     &--main {
         margin-bottom: 5rem;
@@ -212,7 +217,7 @@ img {
     }
     &--site {
         margin-bottom: 3rem;
-        padding-top: .35rem;
+        padding-top: 0.35rem;
     }
 }
 
@@ -223,11 +228,11 @@ img {
     &--site {
         width: 2rem;
         height: 2rem;
-        margin: .7rem;
+        margin: 0.7rem;
         @media (max-width: 500px) {
             width: 1.5rem;
             height: 1.5rem;
-            margin: .5rem;
+            margin: 0.5rem;
         }
     }
     &--large {
@@ -235,7 +240,7 @@ img {
         width: 2.4rem;
         height: 2.45rem;
         @media (max-width: 500px) {
-            margin: .55rem;
+            margin: 0.55rem;
         }
     }
 }
@@ -254,14 +259,14 @@ img {
     .icon {
         position: relative;
         z-index: 1;
-        transition: .2s;
+        transition: 0.2s;
     }
     &--sites,
     &--networks {
         pointer-events: none;
         &:hover .content,
         &:hover .icon {
-            opacity: .5;
+            opacity: 0.5;
         }
         .item {
             pointer-events: auto;
@@ -278,27 +283,27 @@ img {
     position: relative;
     &--network {
         display: inline-block;
-        margin-right: .6rem;
+        margin-right: 0.6rem;
     }
     &:hover .link--circle:after {
         opacity: 0;
     }
     &--site {
-      padding: 10vh 0;
-      &:first-of-type {
-        padding-top: 6vh;
-      }
+        padding: 10vh 0;
+        &:first-of-type {
+            padding-top: 6vh;
+        }
     }
 }
 
 .figure {
-  background: $color--background;
-  box-shadow: 0 0 .4rem .8rem $color--background;
+    background: $color--background;
+    box-shadow: 0 0 0.4rem 0.8rem $color--background;
 }
 
 .details {
-  margin-top: 1.6rem;
-  position: relative;
+    margin-top: 1.6rem;
+    position: relative;
 }
 
 // Links
@@ -308,15 +313,17 @@ img {
     background: none;
     &--circle {
         position: absolute;
-        @media \0screen { display: none; } // For those IE8 fans out there
+        @media \0screen {
+            display: none;
+        } // For those IE8 fans out there
         top: 0;
         left: 0;
         border: $width--keyline solid var(--keyline-color, $color--keyline);
         background: $color--background;
-        box-shadow: 0 0 .4rem .25rem $color--background;
+        box-shadow: 0 0 0.4rem 0.25rem $color--background;
         border-radius: 100%;
-        margin: 0 .25rem .25rem;
-        transition: transform .2s, border .6s;
+        margin: 0 0.25rem 0.25rem;
+        transition: transform 0.2s, border 0.6s;
         @media (max-width: 500px) {
             margin: 0;
         }
@@ -328,10 +335,10 @@ img {
             border: $width--keyline solid $color--background;
             border-radius: inherit;
             background: $color--background;
-            opacity: .5;
+            opacity: 0.5;
         }
         &:hover:after {
-            opacity: .5;
+            opacity: 0.5;
         }
     }
     &:hover {
@@ -341,9 +348,9 @@ img {
         background: lighten($color--background, 10%);
     }
     &--site {
-        margin: 0 .8rem .8rem;
+        margin: 0 0.8rem 0.8rem;
         @media (max-width: 500px) {
-            margin: .35rem .5rem .5rem;
+            margin: 0.35rem 0.5rem 0.5rem;
         }
     }
     &--icon:after {
@@ -352,6 +359,10 @@ img {
 }
 
 @keyframes keyline {
-    0%  { top: -100%; }
-    100%{ top: 0; }
+    0% {
+        top: -100%;
+    }
+    100% {
+        top: 0;
+    }
 }
