@@ -15,7 +15,7 @@
   content: "See4Myself was developed with Unity Engine and distributed on iPad and Oculus Quest and I was the programmer and the content designer of this product. The Quest version is a VR job simulator that enables students and adult with Autism Spectrum Disorder (ASD) to experience the workplace of different careers with a milder atmosphere."
   image: "/assets/images/S4MVR.jpg"
   caption: "Screenshot of See4Myself VR"
-- link: "https://www.neurotech.biz/see4myself"
+- link: "/see4myself-pad"
   icon: s4mipad
   title: "See4Myself - iPad"
   colour: "#00a975" # TODO
