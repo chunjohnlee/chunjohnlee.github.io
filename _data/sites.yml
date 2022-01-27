@@ -8,7 +8,7 @@
 #   caption: "Sample UI &amp; branding"
 
 - category: "Professional Projects"
-  link: "https://www.neurotech.biz/see4myself"
+  link: "/see4myself-vr"
   icon: s4mvr
   title: "See4Myself - VR" 
   colour: "#8549FC" # TODO
