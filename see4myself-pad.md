@@ -6,7 +6,7 @@ excerpt: "Game Programmer"
 ---
 # **See4Myself Pad**
 
-*A VR job simulator that enables students and adult with Autism Spectrum Disorder (ASD) to experience the workplace of different careers with a mild atmosphere*
+*An interactive career explorer that enables students and adult with Autism Spectrum Disorder (ASD) to find out what a job involves and if it's right for you*
 
 <img src="/assets/images/S4MPad.jpg" alt="Screenshot of See4Myself Pad" width="1000"/>
 
