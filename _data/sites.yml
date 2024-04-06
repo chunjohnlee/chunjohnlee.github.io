@@ -10,6 +10,13 @@
 - category: "Professional Projects"
   link: "/see4myself-vr"
   icon: s4mvr
+  title: "Teleflex UroLift® VR Training Platform" 
+  colour: "#183362" # Teleflex Blue
+  content: "The Teleflex UroLift® VR Training Platform is developed for an immersive training of the UroLift® System, a minimally invasive treatment for Benign Prostatic Hyperplasia (BPH), commonly known as enlarged prostate. It allows the user to learn to operate a digital twin of the UroLift® System with utmost caution to the patient anatomy. As one of the engineers, I've contributed to many aspect of the system, mainly focusing on the single user experience. I developed the step progression, interaction with the UroLift® device, animations for the hand poses, and various UI elements. The platform was developed with Unity Engine and distributed on Oculus Quest."
+  image: "/assets/images/urolift-Procedure-UI.webp"
+  caption: "Screenshot of Teleflex UroLift® Training Platform"
+- link: "/see4myself-vr"
+  icon: s4mvr
   title: "See4Myself - VR" 
   colour: "#8549FC" # TODO
   content: "See4Myself was developed with Unity Engine and distributed on iPad and Oculus Quest and I was the programmer and the content designer of this product. The Quest version is a VR job simulator that enables students and adult with Autism Spectrum Disorder (ASD) to experience the workplace of different careers with a milder atmosphere."
@@ -22,13 +29,13 @@
   content: "The iPad version is a top-down visual career explorer which displays many different careers in several mini-worlds, e.g. a hospital, a factory district, a construction site, a shopping center, etc. The characters which represent each career can be filtered with different criteria, like salary, qualification and more. Users can click on them to find more information about them. The information of the jobs is managed by SQLite. I also implemented some NPC that walks around in a node system so the world appears more lively."
   image: "/assets/images/S4MPad.jpg"
   caption: "Screenshot See4Myself iPad"
-- link: "https://www.neurotech.biz/talkback"
-  icon: talkback
-  title: "Talkback VR"
-  colour: "#E36500" #TODO
-  content: "I was brought in as a Unity developer in the late stage of the development to design new content and implement the gameplay of the new levels. In one of the lesson in the App, I developed a character customization system that can save/load a set of clothing and use it on later levels."
-  image: "/assets/images/TalkbackVR.jpg"
-  caption: "Screenshot of Talkback VR"
+# - link: "https://www.neurotech.biz/talkback"
+#   icon: talkback
+#   title: "Talkback VR"
+#   colour: "#E36500" #TODO
+#   content: "I was brought in as a Unity developer in the late stage of the development to design new content and implement the gameplay of the new levels. In one of the lesson in the App, I developed a character customization system that can save/load a set of clothing and use it on later levels."
+#   image: "/assets/images/TalkbackVR.jpg"
+#   caption: "Screenshot of Talkback VR"
 - category: "Hobby Projects"
   link: "https://blackjlc.itch.io/finding-friendzy"
   icon: ghost
