@@ -1,7 +1,7 @@
 ---
 layout: see4myself-pad
 title: "John Lee"
-excerpt: "Game Programmer"
+excerpt: "Software Engineer"
 
 ---
 # **See4Myself VR**
