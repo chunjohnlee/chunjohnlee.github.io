@@ -16,4 +16,4 @@ My passion is game development. I've joined game jams and created: [Finding Frie
 
 Feel free to chat with me, [get in touch](http://enable-javascript.com/ "my email").
 
-Linkedin: https://www.linkedin.com/in/chun-john-lee/
+[LinkedIn](https://www.linkedin.com/in/chun-john-lee/)
